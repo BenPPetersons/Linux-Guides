@@ -76,24 +76,7 @@ static domain_name_servers = 192.168.3.2
 </code>
 </pre>
 
-<!--
-Next, change your directory to your home folder, then create and edit a file
-<pre>
-<code>cd /home/pi</code>
-</pre>
-<pre>
-<code>nano ip_addrs</code>
-</pre>
-In this file, you will want to add the IP of each node on a seperate line
-Example:
-<pre>
-192.168.1.01
-192.168.1.02
-192.168.1.03
-192.168.1.04
-etc...
-</pre>
--->
+
 ## Fun with SSH
 From your master node you will want to create and copy your SSH key to each node
 <pre><code>ssh-keygen</code>
@@ -104,21 +87,6 @@ For each of the pi's
 <code>ssh pi@<b>NODE_IP</b></code>
 </pre>
 >The pi# stands for the host name of the pi
-
-<!--
-<pre><code>sudo raspi-config</code>
-Go in system options -> Host name
-Set a new hostname for this node
-Then, exit the node using <code>exit</code>
-</pre>
--->
-<!--
-<pre><code>sudo raspi-config</code>
-Go in system options -> Host name
-Set a new hostname for this node -> Node1
-Then, exit the node using <code>exit</code>
-</pre>
--->
 
 
 On the master node, you will want to create a SSH key using this command
