@@ -25,7 +25,7 @@ Next, you will want to intall MPICH, which allows the Pis to split tasks among m
 <code>sudo apt install mpich python3-mpi4py</code>
 </pre>
 Here are a couple more installs, and what they do
-<pre><code>sudo apt install python3-pip python-dev libopenmpi-dev</code></pre>
+<pre><code>sudo apt install python3-pip python3-dev libopenmpi-dev</code></pre>
 > Installs python and other resources needed to run tasks in parrellel
 <pre><code>sudo apt install dnsmasq</pre></code>
 >Installs lightweight version of DNS and DHCP, which allows you to assign IP addresses to each node
