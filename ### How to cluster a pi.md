@@ -61,8 +61,8 @@ etc...
 </pre>
 
 
-## Setting Up DHCP
-To set up a DHCP server, make sure you are on the <b>master node</b>
+## Setting Up Static IP addresses
+<!-- To set up a DHCP server, make sure you are on the <b>master node</b>
 First, you need to edit your dhcp.conf file using this command:
 <pre><code>sudo nano /etc/dhcpcd.conf</code></pre>
 
@@ -74,8 +74,8 @@ static ip_addresses=192.168.3.2/24
 static routers=192.168.3.1
 static domain_name_servers = 192.168.3.2
 </code>
-</pre>
-
+</pre> -->
+Static IP addressing should be set up, but if not, use NMTUI
 
 ## Fun with SSH
 From your master node you will want to create and copy your SSH key to each node
@@ -115,3 +115,4 @@ Now, all you need to do is enter this command:
  
  Thats it! Mpi is now working, we will dive further into Mpi a little later
   
+
